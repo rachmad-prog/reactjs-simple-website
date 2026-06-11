@@ -54,10 +54,12 @@ function Home() {
                     <Partners partnersList={partnersList}/>
                 </div>
             </section>
+
+          {/* Contact */}
+          <Contact contactSection={contactSection}/>
             
         </div>
-        {/* Contact */}
-        <Contact contactSection={contactSection}/>
+        
       <Footer/>
     </>
   )
