@@ -57,11 +57,11 @@ function Home() {
             
         </div>
         {/* Contact */}
-            <div id="contact">
+            <section id="contact">
                 <div class="wrapper">
                     <Contact contactSection={contactSection}/>
                 </div>
-            </div>
+            </section>
       <Footer/>
     </>
   )
